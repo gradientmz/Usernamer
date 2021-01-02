@@ -12,7 +12,7 @@ class RandomWordsState extends State<RandomWords> {
 
   Widget _buildList() {
     return ListView.builder(
-      padding: const EdgeInsets.all(12.0),
+      padding: const EdgeInsets.all(10.0),
       itemBuilder: (context, item) {
         if (item.isOdd) return Divider();
 
@@ -31,7 +31,7 @@ class RandomWordsState extends State<RandomWords> {
     final alreadySaved = _savedWordPairs.contains(pair);
 
     return ListTile(
-        title: Text(pair.asPascalCase, style: TextStyle(fontSize: 18.0)),
+        title: Text(pair.asPascalCase, style: TextStyle(fontSize: 16.0)),
         trailing: Icon(alreadySaved ? Icons.favorite : Icons.favorite_border,
             color: alreadySaved ? Colors.red[500] : null),
         onTap: () {
@@ -68,7 +68,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('usernamer'),
+          title: Text('Usernamer'),
           actions: <Widget>[
             IconButton(icon: Icon(Icons.list), onPressed: _pushSaved)
           ],

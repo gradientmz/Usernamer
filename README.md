@@ -1,12 +1,12 @@
-# usernamer
+# Usernamer
 
-A new Flutter project.
+An app for picking account and project names when you don't know what to use! 1/1/2020
 
-## Getting Started
+Usernamer makes word pairs automatically and displays them in a list as you keep scrolling. You can also favorite names to re-examine or compare later in the Saved Usernames page.
 
-This project is a starting point for a Flutter application.
+This was my first project with flutter, and I'm enjoying using it so far!
 
-A few resources to get you started if this is your first Flutter project:
+## Default stuff
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
